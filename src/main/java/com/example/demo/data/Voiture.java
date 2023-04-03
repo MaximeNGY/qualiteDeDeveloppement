@@ -1,9 +1,11 @@
 package com.example.demo.data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
+import net.bytebuddy.asm.Advice;
+
+
+import javax.persistence.*;
 
 @Entity
 public class Voiture {
@@ -46,6 +48,14 @@ public class Voiture {
 
     public void setPrix(int prix){
         this.prix=prix;
+    }
+
+    @Override
+    public String toString(){
+        return "Car{" +
+                "marque" + marque +
+                "prix" + prix +
+                "id" + id + "}";
     }
 
 
