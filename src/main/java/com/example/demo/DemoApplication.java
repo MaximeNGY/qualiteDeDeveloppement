@@ -23,7 +23,6 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-
 //		Implémentation de l'interface CommandLineRunner
 //
 //			Permet d'éxécuter des instructions avant le lancement'
