@@ -34,8 +34,8 @@ public class DemoApplication implements CommandLineRunner {
 
 		//	Parcours de toutes les voitures de la base de données
 
-		/*for (Voiture v : VoitureRepository.findAll()){
-			Logger.info(v.getMarque() + "" + v.getPrix());
-		}*/
+//		for (Voiture v : VoitureRepository.findAll()){
+//			Logger.info(v.getMarque() + "" + v.getPrix());
+//		}
 	}
 }
